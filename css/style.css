@@ -359,7 +359,10 @@ home-img {
   display: flex;
   opacity: 1 !important;
   flex-direction: column;
-  background: linear-gradient(45deg, rgba(218, 12, 49, 1) 0%, rgba(250, 180, 22, 1) 100%) !important;
+  background: url(../images/vectores/logo-footer.svg) no-repeat, linear-gradient(45deg, rgba(218, 12, 49, 1) 0%, rgba(250, 180, 22, 1) 100%) !important;
+  background-size: cover !important;
+  background-position-y: center !important;
+  background-position-x: center !important;
   border-radius: 2rem;
   -webkit-box-shadow: 0px 16px 34px -3px rgba(48, 48, 48, 0.9);
   -moz-box-shadow: 0px 16px 34px -3px rgba(48, 48, 48, 0.9);
@@ -392,6 +395,15 @@ home-img {
   color: var(--black) !important;
   font-weight: bolder;
   border-radius: 2rem;
+}
+
+.menu__ofert {
+  font-size: 1.5rem;
+  margin: 1rem !important;
+  background-color: var(--black);
+  color: var(--white) !important;
+  border-radius: 2rem;
+  text-align: center;
 }
 
 .menu__preci {
@@ -453,16 +465,27 @@ home-img {
   padding-bottom: 2rem;
 }
 
-#customers-testimonials .item,/* use */
-#customers-testimonials-mini .item, /* use */
-#customers-testimonials-acom .item, /* use */
-#customers-testimonials-fast .item, /* use */
-#customers-testimonials-beb .item, /* use */
-#customers-testimonials-pll .item, /* use */
-#customers-testimonials-pai .item, /* use */
-#customers-testimonials-bro .item, /* use */
+#customers-testimonials .item,
+/* use */
+#customers-testimonials-mini .item,
+/* use */
+#customers-testimonials-acom .item,
+/* use */
+#customers-testimonials-fast .item,
+/* use */
+#customers-testimonials-beb .item,
+/* use */
+#customers-testimonials-pll .item,
+/* use */
+#customers-testimonials-pai .item,
+/* use */
+#customers-testimonials-bro .item,
+/* use */
 #customers-testimonials-chi .item,
-#customers-testimonials-emp .item /* use */{
+#customers-testimonials-emp .item
+
+/* use */
+  {
   text-align: center;
   padding: 1.5rem;
   padding-top: 2rem;
@@ -475,16 +498,27 @@ home-img {
   transition: all 0.3s ease-in-out;
 }
 
-#customers-testimonials .owl-item.active.center .item, /* use */
-#customers-testimonials-mini .owl-item.active.center .item, /* use */
-#customers-testimonials-acom .owl-item.active.center .item, /* use */
-#customers-testimonials-fast .owl-item.active.center .item, /* use */
-#customers-testimonials-beb .owl-item.active.center .item, /* use */
-#customers-testimonials-pll .owl-item.active.center .item, /* use */
-#customers-testimonials-pai .owl-item.active.center .item, /* use */
-#customers-testimonials-bro .owl-item.active.center .item, /* use */
+#customers-testimonials .owl-item.active.center .item,
+/* use */
+#customers-testimonials-mini .owl-item.active.center .item,
+/* use */
+#customers-testimonials-acom .owl-item.active.center .item,
+/* use */
+#customers-testimonials-fast .owl-item.active.center .item,
+/* use */
+#customers-testimonials-beb .owl-item.active.center .item,
+/* use */
+#customers-testimonials-pll .owl-item.active.center .item,
+/* use */
+#customers-testimonials-pai .owl-item.active.center .item,
+/* use */
+#customers-testimonials-bro .owl-item.active.center .item,
+/* use */
 #customers-testimonials-chi .owl-item.active.center .item,
-#customers-testimonials-emp .owl-item.active.center .item /* use */{
+#customers-testimonials-emp .owl-item.active.center .item
+
+/* use */
+  {
   opacity: 1;
   -webkit-transform: scale3d(1.0, 1.0, 1);
   transform: scale3d(1.0, 1.0, 1);
@@ -492,7 +526,7 @@ home-img {
 
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
-  max-width: 90%;
+  max-width: 95%;
   margin: 1rem auto 1rem;
 }
 
@@ -874,10 +908,10 @@ home-img {
 }
 
 .domicilio .dom-content .heading .script-domi {
-    font-family: 'PierceJamesonScript';
-    font-size: 10rem;
-    margin-top: -5rem;
-    color: var(--palet-1);
+  font-family: 'PierceJamesonScript';
+  font-size: 10rem;
+  margin-top: -5rem;
+  color: var(--palet-1);
 }
 
 .footer {
@@ -1425,6 +1459,7 @@ input.whats-input[type=text]:focus {
   .domicilio .dom-content .dom_description {
     text-align: center;
   }
+
   .home-text {
     width: 100%;
     display: flex;
